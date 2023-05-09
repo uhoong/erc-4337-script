@@ -7,8 +7,8 @@ import config from "../../config.json";
 export default async function main(t: string, amt: string, opts: CLIOpts) {
     const paymaster = opts.withPM
         ? Presets.Middleware.verifyingPaymaster(
-            config.paymaster.rpcUrl,
-            config.paymaster.context
+            config.paymasterAddr,
+            config.offchainSigner
         )
         : undefined;
     const simpleAccount = await Presets.Builder.SimpleAccount.init(
