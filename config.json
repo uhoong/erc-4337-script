@@ -1,0 +1,13 @@
+{
+  "rpcUrl": "https://api.stackup.sh/v1/node/4baa83e966b2d0c438da5e022a8a54cb7dd4e856b93abf183a20418486bc65f5",
+  "signingKey": "0x6c61d20f71bfbcc40b086a1788d7e51fcb2b2a9a482f4b3d165356d94207ae91",
+  "entryPoint": "0x5FF137D4b0FDCD49DcA30c7CF57E578a026d2789",
+  "simpleAccountFactory": "0x9406Cc6185a346906296840746125a0E44976454",
+  "paymaster": {
+    "rpcUrl": "https://api.stackup.sh/v1/paymaster/https://api.stackup.sh/v1/paymaster/4baa83e966b2d0c438da5e022a8a54cb7dd4e856b93abf183a20418486bc65f5",
+    "context": {}
+  },
+  "sender":"0xb64fe6f30306880Eb208dDC4b09bacB841eFEe60",
+  "paymasterAddr": "0x957C15cECa5c8F7067B3ae95fdDF69bE80eCda34",
+  "offchainSigner": "0x979c16baa3909ba5a2c37b5ce6c2c1356699b5e5cf3d409ebd3e231d4db6a12d"
+}
