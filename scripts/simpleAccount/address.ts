@@ -5,7 +5,7 @@ import config from "../../config.json";
 
 export default async function main() {
   const simpleAccount = await Presets.Builder.SimpleAccount.init(
-    new ethers.Wallet(config.signingKey),
+    config.signingKey,
     config.rpcUrl,
     config.entryPoint,
     config.simpleAccountFactory
