@@ -1,16 +1,18 @@
 {
     "entryPoint": "0x5FF137D4b0FDCD49DcA30c7CF57E578a026d2789",
-    // "paymaster":{
-    //     "contractAddress":"0x54C9d08B1D4C1E884823d72a712976Db563Accc5",
-    //     "deployerAddress":"0x4e288a9f8157AEc2E7133f73354509cB41720f5A",
-    //     "signerAddress":"0x78b31C9D6ACaa8AD23B8bcab5E5D5ea438E169f0",
-    //     "signerKey":"0x979c16baa3909ba5a2c37b5ce6c2c1356699b5e5cf3d409ebd3e231d4db6a12d"
-    // },
     "paymaster":{
         "contractAddress":"0x957C15cECa5c8F7067B3ae95fdDF69bE80eCda34",
         "deployerAddress":"0x4e288a9f8157AEc2E7133f73354509cB41720f5A",
         "signerAddress":"0x78b31C9D6ACaa8AD23B8bcab5E5D5ea438E169f0",
         "signerKey":"0x979c16baa3909ba5a2c37b5ce6c2c1356699b5e5cf3d409ebd3e231d4db6a12d"
+    },
+    "paymaster_test":{
+        "contractAddress":"0x7D4E438b8EF246C9802A20cCaf214CCB126541fB",
+        "deployerAddress":"0x4e288a9f8157AEc2E7133f73354509cB41720f5A",
+        "signerAddress1":"0x78b31C9D6ACaa8AD23B8bcab5E5D5ea438E169f0",
+        "signerKey1":"0x979c16baa3909ba5a2c37b5ce6c2c1356699b5e5cf3d409ebd3e231d4db6a12d",
+        "signerAddress2":"0xDff5aC376eEc787686De45AB3aB761A87aE14dFC",
+        "signerKey2":"0x0a42ee30e2226b8d3f87a579abcfe20f083cf9437203a0eca3f72b8237899bd0"
     },
     "Factory":{
         "address1":"0x9406Cc6185a346906296840746125a0E44976454",
